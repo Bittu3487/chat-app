@@ -1,5 +1,5 @@
 // server/db.js
-import { Pool } from "pg";
+import pool from "pg"
 import env from "dotenv";
 env.config();
 
