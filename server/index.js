@@ -1,9 +1,9 @@
 // server/index.js
-import express from 'express';
-import http from 'http';
-import { Server } from 'socket.io';
-import cors from 'cors';
-import pool from './db.js';// PostgreSQL connection file
+const express = require('express');
+const http = require('http');
+const { Server } = require('socket.io');
+const cors = require('cors');
+const pool = require('./db');// PostgreSQL connection file
 
 const app = express();
 app.use(cors());
