@@ -4,7 +4,7 @@ import Picker from 'emoji-picker-react';
 import { format, isToday, isYesterday } from 'date-fns';
 
 
-const socket = io.connect('https://chat-app-6vfx.vercel.app/?vercelToolbarCode=Hgy3vk0mwEJkdKm');
+const socket = io.connect('https://chat-app-alpha-pied.vercel.app/');
 
 function App() {
     const [username, setUsername] = useState('');
